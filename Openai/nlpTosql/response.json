@@ -1,0 +1,20 @@
+{
+    "id": "cmpl-8jmdeXjeSjFBPlxIG7gH8THhLCEz0",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "text": " SUM(\"SALES\") FROM \"Sales\" GROUP BY \"POSTALCODE\""
+        }
+    ],
+    "created": 1705922418,
+    "model": "gpt-3.5-turbo-instruct",
+    "object": "text_completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 16,
+        "prompt_tokens": 100,
+        "total_tokens": 116
+    }
+}

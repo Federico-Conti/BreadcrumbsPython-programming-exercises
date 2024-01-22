@@ -1,0 +1,27 @@
+La serializzazione è il processo di codifica dei dati in formato JSON 
+(come la conversione di un elenco Python in JSON).
+
+La deserializzazione è il processo di decodifica dei dati JSON in oggetti nativi 
+con cui si può lavorare (come leggere i dati JSON in un elenco Python).
+
+import json 
+espone due metodi per serializzare oggetti Python in formato JSON.
+
+dump() 
+scriverà i dati Python in un oggetto simile a un file. 
+Lo usiamo quando vogliamo serializzare i nostri dati Python su un file JSON esterno.
+
+dumps()
+scriverà i dati Python in una stringa in formato JSON. 
+Ciò è utile se vogliamo utilizzare il JSON altrove nel nostro programma o
+ se vogliamo semplicemente stamparlo sulla console per verificare che sia corretto.
+
+Python e JSON non condividono tutti gli stessi tipi. 
+La serializzazione convertirà i tuoi oggetti Python in formato JSON 
+
+
+Entrambi i metodi dump()e dumps() ci permettono di specificare un indent argomento facoltativo. 
+Ciò cambierà il numero di spazi utilizzati per il rientro, 
+il che può rendere più facile la lettura del nostro JSON.
+
+json_str = json.dumps(data, indent=4)

@@ -1,0 +1,20 @@
+{
+    "id": "cmpl-8kqWnuhpnL3eGjpTeNbLbxOpa7YL1",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "text": "\n\n1. What is the correct way to declare a variable in Python?\nA. var = 5\nB. var == 5\nC. var := 5\nD. var => 5\nCorrect Answer: A. var = 5\n\n2. What is the output of the following code?\nx = 5\nprint(x % 2)\nA. 0\nB. 1\nC. 2\nD. 5\nCorrect Answer: B. 1\n\n3. What is the correct way to write a conditional statement in Python?\nA. if x > 5:\nB. if x = 5:\nC. if x => 5:\nD. if x == 5:\nCorrect Answer: D. if x == 5:\n\n4. What is the correct way to import a module in Python?\nA. import module name\nB. from module import name\nC. include module name\nD. module name import\nCorrect Answer: B. from module import name"
+        }
+    ],
+    "created": 1706175697,
+    "model": "gpt-3.5-turbo-instruct",
+    "object": "text_completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 209,
+        "prompt_tokens": 41,
+        "total_tokens": 250
+    }
+}

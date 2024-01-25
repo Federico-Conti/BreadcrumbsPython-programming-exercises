@@ -1,20 +1,61 @@
 {
-    "id": "cmpl-8kqWnuhpnL3eGjpTeNbLbxOpa7YL1",
+    "id": "cmpl-8kwDj0U2p7sIrStEMCnHZaKjAbN1k",
     "choices": [
         {
             "finish_reason": "stop",
             "index": 0,
             "logprobs": null,
-            "text": "\n\n1. What is the correct way to declare a variable in Python?\nA. var = 5\nB. var == 5\nC. var := 5\nD. var => 5\nCorrect Answer: A. var = 5\n\n2. What is the output of the following code?\nx = 5\nprint(x % 2)\nA. 0\nB. 1\nC. 2\nD. 5\nCorrect Answer: B. 1\n\n3. What is the correct way to write a conditional statement in Python?\nA. if x > 5:\nB. if x = 5:\nC. if x => 5:\nD. if x == 5:\nCorrect Answer: D. if x == 5:\n\n4. What is the correct way to import a module in Python?\nA. import module name\nB. from module import name\nC. include module name\nD. module name import\nCorrect Answer: B. from module import name"
+            "text": "\n\n1) What is another name for Carlo Magno?\nA) Charles Martel\nB) Charlemagne\nC) Constantine\nD) Caesar\nCorrect Answer: B) Charlemagne\n\n2) Which of the following was NOT a major accomplishment of Carlo Magno?\nA) Conquering Lombardy\nB) Establishing the Carolingian Renaissance\nC) Creating the Holy Roman Empire\nD) Expanding the Frankish kingdom to include modern-day Germany\nCorrect Answer: D) Expanding the Frankish kingdom to include modern-day Germany\n\n3) What title was given to Carlo Magno by Pope Leo III in 800 CE?\nA) Emperor of the Franks\nB) Holy Roman Emperor\nC) King of the Lombards\nD) Defender of the Faith\nCorrect Answer: B) Holy Roman Emperor\n\n4) How did Carlo Magno's reign impact education in Europe?\nA) He established the first universities\nB) He promoted the use of Latin as the language of learning\nC) He encouraged the spread of Christianity through education\nD) He implemented a standardized system of education for all children\nCorrect Answer: B) He promoted the use of Latin as the language of learning",
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
         }
     ],
-    "created": 1706175697,
-    "model": "gpt-3.5-turbo-instruct",
+    "created": 1706197579,
+    "model": "gpt-35-turbo-instruct",
     "object": "text_completion",
     "system_fingerprint": null,
     "usage": {
-        "completion_tokens": 209,
-        "prompt_tokens": 41,
-        "total_tokens": 250
-    }
+        "completion_tokens": 248,
+        "prompt_tokens": 43,
+        "total_tokens": 291
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
 }

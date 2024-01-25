@@ -4,6 +4,10 @@ from dotenv import load_dotenv
 import json
 
 load_dotenv("../.env")
+
+openai.api_type = "azure"
+openai.api_version = "2023-09-15-preview"
+openai.api_base = os.getenv("AZURE_OPENAI_ENDPOINT")
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 class TestGenerator:
@@ -34,7 +38,7 @@ class TestGenerator:
     def generate_quiz(self, prompt):
 
         response = openai.completions.create(
-                model="gpt-3.5-turbo-instruct",
+                model ="gpt-35-turbo-instruct",
                 prompt= prompt,
                 temperature=0.7,
                 max_tokens=256,
